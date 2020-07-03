@@ -23,7 +23,7 @@ namespace KekDevelops.Plugins.AntiCheat
 		
 		public static void OnTileEdit(object sender, GetDataHandlers.TileEditEventArgs args) 
 		{
-			if (args.Action == GetDataHandlers.EditAction.PlaceTile)		
+			if (args.Action == GetDataHandlers.EditAction.PlaceTile || args.Action == GetDataHandlers.EditAction.ReplaceTile)	
 			{
 				// The History plugin does not record 127 tiles.
 				// Cheaters use this to deliver tiles without leaving traces.

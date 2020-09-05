@@ -4,7 +4,7 @@ using TerrariaApi.Server;
 using System.IO;
 using TShockAPI;
 
-namespace KekDevelops.tSPlugins.AntiCheats
+namespace AntiCheats
 {
 	[ApiVersion(2, 1)]
 	public class IgnoreTheMismatchedTiles : TerrariaPlugin

@@ -82,7 +82,7 @@ namespace AntiCheats
 					{
 						TShock.Log.ConsoleError(string.Format("/ OnPlaceChest / Player {0} ({1}) placed an chest whose style({2}) does not match the present.", player.Name, player.IP, style));
 						
-						player.SendErrorMessage("You cannot place this chets.");
+						player.SendErrorMessage("You cannot place this chest.");
 						
 						e.Handled = true;
 						return;
